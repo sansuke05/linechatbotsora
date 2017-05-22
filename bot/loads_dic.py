@@ -1,0 +1,1 @@
+dic = open("bot/dictionary.txt").read().split("\n")

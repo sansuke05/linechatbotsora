@@ -1,0 +1,9 @@
+Django==1.10.3
+future==0.16.0
+lxml==3.4.4
+marisa==0.0.0
+oauthlib==2.0.1
+pygobject==3.18.2
+python-twitter==3.2.1
+requests==2.13.0
+requests-oauthlib==0.8.0
