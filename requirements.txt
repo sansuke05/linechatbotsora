@@ -1,4 +1,5 @@
 Django==1.10.3
+pip==9.0.1
 future==0.16.0
 lxml==3.4.4
 marisa==0.0.0
