@@ -129,4 +129,4 @@ STATICFILE_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'whispering-retreat-50919']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'linechatbotsora.herokuapp.com:']
