@@ -2,6 +2,7 @@ Django==1.10.3
 future==0.16.0
 lxml==3.4.4
 oauthlib==2.0.1
-python-twitter==3.2.1
+gunicorn==19.6.0
+psycopg2==2.6.2
 requests==2.13.0
 requests-oauthlib==0.8.0
