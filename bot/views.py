@@ -40,7 +40,6 @@ def callback(request):
 		if message_type == 'text':
 			text = e['message']['text']
 			reply += reply_text(reply_token, text)
-			logger.debug('reply text:' + reply)
 	return HttpResponse(reply)
 
 def reply_text(reply_token, text):
@@ -55,5 +54,6 @@ def reply_text(reply_token, text):
 		]
 	}
 
+	logger.debug('reply json:' + json.dumps(payload))
 	requests.post(REPLY_ENDPOINT, headers=HEADER, data=json.dumps(payload))
 	return reply
