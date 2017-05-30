@@ -35,7 +35,7 @@ def callback(request):
 	for e in request_json['events']:
 		reply_token = e['replyToken']
 		message_type = e['message']['type']
-		logger.debug('request json: ' + e)
+		logger.debug('request json: ' + json.dumps(e))
 
 		if message_type == 'text':
 			text = e['message']['text']
