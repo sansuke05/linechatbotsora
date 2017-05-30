@@ -9,8 +9,8 @@ from loads_dic import dic
 
 # Create your views here.
 
-# def index(request):
-#    return HttpResponse("This is bot api.")
+def index(request):
+	return HttpResponse("This is bot api.")
 
 REPLY_ENDPOINT = 'https://api.line.me/v2/bot/message/reply'
 ACCESS_TOKEN = 'uj50mDTxG1fW3f59zXUO67NFdwurWYzpM12mhNzlNvX9kuXd/5xJo1X0rPX3ZdmRhiwb/BFKppP0A8P1hjvLijfsGVWgEehqLvynzCx/E4S6/sOjza5fGm7KbwF7msq9CCP8tY0C25CEfYHhUf27GwdB04t89/1O/w1cDnyilFU='
