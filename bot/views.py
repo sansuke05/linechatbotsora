@@ -46,7 +46,7 @@ def reply_text(reply_token, text):
 	reply = random.choice(dic)
 	payload = {
 		"replyToken":reply_token,
-		"message":[
+		"messages":[
 			{
 				"type":"text",
 				"text": reply
