@@ -44,12 +44,17 @@ def callback(request):
 
 def reply_text(reply_token, text):
 	reply = random.choice(dic)
+	url = None
 	payload = {
 		"replyToken":reply_token,
 		"messages":[
 			{
 				"type":"text",
 				"text": reply
+			},
+			{
+				"type":"image"
+				"originalContentUrl": url
 			}
 		]
 	}
