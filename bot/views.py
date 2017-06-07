@@ -44,7 +44,7 @@ def callback(request):
 
 def reply_text(reply_token, text):
 	reply = random.choice(dic)
-	url = None
+	url = "http://pbs.twimg.com/media/DBOp3KNV0AADF9x.jpg"
 	payload = {
 		"replyToken":reply_token,
 		"messages":[
@@ -54,7 +54,7 @@ def reply_text(reply_token, text):
 			},
 			{
 				"type":"text",
-				"text": reply
+				"originalContentUrl": url
 			}
 		]
 	}
