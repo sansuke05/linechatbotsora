@@ -44,7 +44,7 @@ def callback(request):
 
 def reply_text(reply_token, text):
 	reply = random.choice(dic)
-	url = "http://linechatbotsora.herokuapp.com/img/sample.jpg"
+	url = "https://linechatbotsora.herokuapp.com/img/sample.jpg"
 	payload = {
 		"replyToken":reply_token,
 		"messages":[
