@@ -54,7 +54,8 @@ def reply_text(reply_token, text):
 			},
 			{
 				"type":"text",
-				"originalContentUrl": url
+				"originalContentUrl": url,
+				"previewImageUrl": url
 			}
 		]
 	}
