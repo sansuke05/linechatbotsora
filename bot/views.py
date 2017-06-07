@@ -52,10 +52,10 @@ def reply_text(reply_token, text):
 				"type":"text",
 				"text": reply
 			},
-			#{
-			#	"type":"image"
-			#	"originalContentUrl": url
-			#}
+			{
+				"type":"image",
+				"originalContentUrl": url
+			}
 		]
 	}
 
