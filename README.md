@@ -10,7 +10,7 @@
 * ユーザーからのメッセージに画像を一緒に返信する機能を追加。
 
 ## 友達登録はこちらから
-[友達登録QRコード](https://github.com/sansuke05/linechatbotsora/image/sora_frend_qr.png)
+[友達登録QRコード](https://github.com/sansuke05/linechatbotsora/blob/master/image/sora_frend_qr.png)
 
 ※若干ネタ要素も含まれてますので友達登録の際はお気をつけ下さい。
 
